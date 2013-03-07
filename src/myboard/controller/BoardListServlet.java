@@ -6,10 +6,12 @@ import myboard.repository.BoardMemoryRepository;
 import myboard.repository.BoardRepository;
 
 import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.Date;
 import java.util.List;
@@ -23,6 +25,7 @@ public class BoardListServlet extends HttpServlet{
     BoardRepository boardRepository = BoardMemoryRepository.getInstance();
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         //1. model에서 데이터 조회
         List<Board> boards = boardRepository.getBoards();
 

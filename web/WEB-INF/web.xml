@@ -63,6 +63,38 @@
         <url-pattern>/board/delete</url-pattern>
     </servlet-mapping>
     <servlet>
+        <servlet-name>loginFormServlet</servlet-name>
+        <servlet-class>myboard.controller.LoginFormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginFormServlet</servlet-name>
+        <url-pattern>/board/loginForm</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>myboard.controller.LoginServlet</servlet-class>
+        <init-param>
+            <param-name>defaultId</param-name>
+            <param-value>ojh</param-value>
+        </init-param>
+        <init-param>
+            <param-name>defaultPassword</param-name>
+            <param-value>pw</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/board/login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>logout</servlet-name>
+        <servlet-class>myboard.controller.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logout</servlet-name>
+        <url-pattern>/board/logout</url-pattern>
+    </servlet-mapping>
+    <servlet>
         <servlet-name>helloServlet</servlet-name>
         <servlet-class>hello.HelloServlet</servlet-class>
     </servlet>

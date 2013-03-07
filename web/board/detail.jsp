@@ -41,7 +41,7 @@
    <br>
    <input type="button" value="리스트" onclick="location.href='/board/list'">
    <input type="button" value="수정" onclick="location.href='/board/updateForm?id=<%=request.getAttribute("id")%>'">
-   pw : <input type="text" name="pw" length="10"> <input type="submit" value="삭제">
+   pw : <input type="password" name="pw" length="10"> <input type="submit" value="삭제">
    </form>
   </body>
 </html>

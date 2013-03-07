@@ -1,14 +1,22 @@
 <%@ page import="java.util.Date" %>
 <%@ page import="java.util.List" %>
 <%@ page import="myboard.entity.Board" %>
+<%@ page import="javax.servlet.http.HttpSession" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
   <title></title>
   </head>
   <body>
-   <!--<%= request.getAttribute("result") %>-->
+  <%
+    if ((session.getAttribute("isLogin") == null) || (!(Boolean) session.getAttribute("isLogin"))) {
+        out.write("<a href=\"/board/loginForm\">로그인</a>");
 
+    } else {
+        out.write("<a href=\"/board/logout\">로그아웃</a>");
+    }
+  %>
+  <br><br>
    <table border=1 width="500">
        <tr>
            <td width="20%" align=center>No.</td>
