@@ -31,6 +31,14 @@ public class LoginServlet extends HttpServlet{
         if (id.equals(defaultId) && password.equals(defaultPassword)) {
             HttpSession session = request.getSession();
             session.setAttribute("isLogin", true);
+
+            //접속자수 추가
+            if (request.getServletContext().getAttribute("loginCount") == null) {
+                request.getServletContext().setAttribute("loginCount", 1);
+            } else {
+                request.getServletContext().setAttribute("loginCount", ((Integer) request.getServletContext().getAttribute("loginCount")) + 1);
+            }
+
             // ID 저장 체크가 안된 경우
             if (idsave == null) {
                 // 기존 저장된 쿠키값이 있다면 제거

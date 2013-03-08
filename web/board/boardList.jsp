@@ -15,7 +15,7 @@
     } else {
         out.write("<a href=\"/board/logout\">로그아웃</a>");
     }
-  %>
+  %> | 접속자수 : <%=request.getAttribute("loginCount")%>
   <br><br>
    <table border=1 width="500">
        <tr>
@@ -34,8 +34,6 @@
            out.write("<td>"+board.getWriter()+"</td>\n");
   %></tr><%
       }
-
-
   %>
    </table>
    <br>

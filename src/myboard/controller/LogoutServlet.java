@@ -15,6 +15,13 @@ public class LogoutServlet extends HttpServlet{
         HttpSession session = request.getSession();
         System.out.println(session);
         session.invalidate();
+
+        //접속자수 빼기
+        if (request.getServletContext().getAttribute("loginCount") == null) {
+            request.getServletContext().setAttribute("loginCount", 0);
+        } else {
+            request.getServletContext().setAttribute("loginCount", ((Integer) request.getServletContext().getAttribute("loginCount")) - 1);
+        }
         response.sendRedirect("/board/list");
     }
 }

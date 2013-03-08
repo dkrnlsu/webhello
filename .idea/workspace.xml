@@ -6,15 +6,15 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/index.jsp" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1361520095955" ignored="false" />
     <file path="/HelloServlet.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1361520681724" ignored="false" />
-    <file path="/web.xml" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362635572974" ignored="false" />
+    <file path="/web.xml" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362647442813" ignored="false" />
     <file path="/hello.jsp" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1361520535517" ignored="false" />
     <file path="/ResultModel.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1361520662812" ignored="false" />
     <file path="/fragment.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362635040756" ignored="false" />
     <file path="/Board.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1361958250334" ignored="false" />
     <file path="/BoardRepository.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362474253326" ignored="false" />
     <file path="/BoardMemoryRepository.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362474499208" ignored="false" />
-    <file path="/BoardListServlet.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362617460233" ignored="false" />
-    <file path="/boardList.jsp" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362635404280" ignored="false" />
+    <file path="/BoardListServlet.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362648469243" ignored="false" />
+    <file path="/boardList.jsp" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362647592934" ignored="false" />
     <file path="/a.dummy" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1361954520943" ignored="false" />
     <file path="/createBoard.jsp" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362388256360" ignored="false" />
     <file path="/insertForm.jsp" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362641683542" ignored="false" />
@@ -26,9 +26,9 @@
     <file path="/UpdateServlet.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362456696506" ignored="false" />
     <file path="/DeleteServlet.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362641789471" ignored="false" />
     <file path="/loginForm.jsp" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362633663484" ignored="false" />
-    <file path="/LoginServlet.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362641986939" ignored="false" />
+    <file path="/LoginServlet.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362702670462" ignored="false" />
     <file path="/LoginFormServlet.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362641839402" ignored="false" />
-    <file path="/LogoutServlet.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362642005142" ignored="false" />
+    <file path="/LogoutServlet.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1362702836142" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,22 +87,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myboard/controller/LoginServlet.java">
+      <file leaf-file-name="LogoutServlet.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/myboard/controller/LogoutServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="52" selection-start="1952" selection-end="1952" vertical-scroll-proportion="-37.96">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="26" column="1" selection-start="882" selection-end="882" vertical-scroll-proportion="0.9040404">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogoutServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myboard/controller/LogoutServlet.java">
+      <file leaf-file-name="LoginServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/myboard/controller/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="24" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="41" column="48" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,19 +127,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpdateServlet.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UpdateServlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/myboard/controller/UpdateServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="44" selection-start="448" selection-end="448" vertical-scroll-proportion="0.35466668">
+            <state line="16" column="44" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="30" selection-start="3883" selection-end="3893" vertical-scroll-proportion="-8.307693">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BoardListServlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/myboard/controller/BoardListServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="59" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.0">
+            <state line="32" column="108" selection-start="962" selection-end="1203" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,19 +165,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myboard/controller/DeleteServlet.java">
+      <file leaf-file-name="boardList.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/board/boardList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="35" selection-start="753" selection-end="780" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DetailServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myboard/controller/DetailServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="26" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.0">
+            <state line="24" column="0" selection-start="788" selection-end="788" vertical-scroll-proportion="-11.035714">
               <folding />
             </state>
           </provider>
@@ -196,19 +205,19 @@
         <option value="$PROJECT_DIR$/web/board/updateForm.jsp" />
         <option value="$PROJECT_DIR$/web/board/loginForm.jsp" />
         <option value="$PROJECT_DIR$/src/myboard/controller/BoardListServlet_old.java" />
-        <option value="$PROJECT_DIR$/src/myboard/controller/BoardListServlet.java" />
-        <option value="$PROJECT_DIR$/web/board/boardList.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/board/insertForm.jsp" />
         <option value="$PROJECT_DIR$/web/board/detail.jsp" />
         <option value="$PROJECT_DIR$/src/myboard/controller/DeleteServlet.java" />
         <option value="$PROJECT_DIR$/src/myboard/controller/InsertFormServlet.java" />
         <option value="$PROJECT_DIR$/src/myboard/controller/LoginFormServlet.java" />
-        <option value="$PROJECT_DIR$/src/myboard/controller/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/src/myboard/controller/LogoutServlet.java" />
         <option value="$PROJECT_DIR$/src/myboard/controller/SaveServlet.java" />
         <option value="$PROJECT_DIR$/src/myboard/controller/UpdateFormServlet.java" />
         <option value="$PROJECT_DIR$/src/myboard/controller/UpdateServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/board/boardList.jsp" />
+        <option value="$PROJECT_DIR$/src/myboard/controller/BoardListServlet.java" />
+        <option value="$PROJECT_DIR$/src/myboard/controller/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/myboard/controller/LogoutServlet.java" />
       </list>
     </option>
   </component>
@@ -749,19 +758,19 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.406993" sideWeight="0.5083655" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37762237" sideWeight="0.51093954" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24948876" sideWeight="0.23765433" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924336" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.47425997" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.46653795" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28700128" sideWeight="0.59300697" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.406993" sideWeight="0.48713" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28700128" sideWeight="0.62237763" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37762237" sideWeight="0.484556" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -838,32 +847,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="63" selection-start="3855" selection-end="3855" vertical-scroll-proportion="-12.153846">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/board/insertForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="48" selection-start="1393" selection-end="1393" vertical-scroll-proportion="-11.535714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/board/boardList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="66" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-7.321429">
           <folding />
         </state>
       </provider>
@@ -872,15 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="12" selection-start="1355" selection-end="1355" vertical-scroll-proportion="-8.678572">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/myboard/controller/BoardListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="59" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -901,22 +878,6 @@
     <entry file="file://$PROJECT_DIR$/src/myboard/controller/LoginFormServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="45" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/myboard/controller/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="52" selection-start="1952" selection-end="1952" vertical-scroll-proportion="-37.96">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/myboard/controller/LogoutServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -946,7 +907,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/myboard/controller/UpdateServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="448" selection-end="448" vertical-scroll-proportion="0.35466668">
+        <state line="16" column="44" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="30" selection-start="3883" selection-end="3893" vertical-scroll-proportion="-8.307693">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/board/boardList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="788" selection-end="788" vertical-scroll-proportion="-11.035714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myboard/controller/BoardListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="108" selection-start="962" selection-end="1203" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myboard/controller/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="48" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myboard/controller/LogoutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="1" selection-start="882" selection-end="882" vertical-scroll-proportion="0.9040404">
           <folding />
         </state>
       </provider>

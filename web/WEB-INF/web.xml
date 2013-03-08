@@ -102,5 +102,8 @@
         <servlet-name>helloServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
-
+    <context-param>
+        <param-name>loginCount</param-name>
+        <param-value>0</param-value>
+    </context-param>
 </web-app>
