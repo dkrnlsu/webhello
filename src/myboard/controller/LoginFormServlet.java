@@ -17,7 +17,6 @@ public class LoginFormServlet extends HttpServlet{
         for (Cookie cookie: cookies) {
             if (cookie.getName().equals("idsave")) {
                 idSave = cookie.getValue();
-                System.out.println("idSave : " + idSave);
             }
         }
         request.setAttribute("idSave", idSave);

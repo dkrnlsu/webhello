@@ -35,10 +35,6 @@ public class BoardListServlet extends HttpServlet{
         //1. model에서 데이터 조회
         List<Board> boards = boardRepository.getBoards();
 
-        for (Board board : boards) {
-            System.out.println("board = " + board);
-        }
-
         //2. request에 데이터 셋팅
         request.setAttribute("boards",boards);
         request.setAttribute("loginCount",loginCount);

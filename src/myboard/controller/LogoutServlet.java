@@ -13,7 +13,6 @@ public class LogoutServlet extends HttpServlet{
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // 세션정보 소멸
         HttpSession session = request.getSession();
-        System.out.println(session);
         session.invalidate();
 
         //접속자수 빼기
