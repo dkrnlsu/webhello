@@ -16,7 +16,7 @@ public class LogoutServlet extends HttpServlet{
         session.invalidate();
 
         //접속자수 빼기
-        if (request.getServletContext().getAttribute("loginCount") == null) {
+        if (request.getServletContext().getAttribute("loginCount") == null || request.getServletContext().getAttribute("loginCount").equals(0)) {
             request.getServletContext().setAttribute("loginCount", 0);
         } else {
             request.getServletContext().setAttribute("loginCount", ((Integer) request.getServletContext().getAttribute("loginCount")) - 1);

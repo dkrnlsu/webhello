@@ -26,7 +26,7 @@
    <table border=1 width="600">
        <tr>
            <td width="100">ID</td>
-           <td width="500"><input type="text" name="id" length="50" value="<%=request.getAttribute("idSave")%>"> <input type="checkbox" name="idsave" checked>ID 기억</td>
+           <td width="500"><input type="text" name="id" length="50" value="${idSave}"> <input type="checkbox" name="idsave" checked>ID 기억</td>
        </tr>
        <tr>
            <td width="100">PASSWORD</td>
@@ -36,5 +36,6 @@
       <br>
    <input type="submit" value="로그인">   <input type="button" value="취소" onclick="location.href='/board/list'">
   </form>
+  <%@ include file="/board/footer.jsp"%>
   </body>
 </html>

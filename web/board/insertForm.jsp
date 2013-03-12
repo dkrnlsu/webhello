@@ -44,5 +44,6 @@
       <br>
    <input type="submit" value="등록">   <input type="button" value="취소" onclick="location.href='/board/list'">
   </form>
+  <%@ include file="/board/footer.jsp"%>
   </body>
 </html>
