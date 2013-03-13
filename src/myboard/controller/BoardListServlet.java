@@ -25,8 +25,6 @@ public class BoardListServlet extends HttpServlet{
     BoardRepository boardRepository = BoardMemoryRepository.getInstance();
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //int loginCount = Integer.parseInt(request.getServletContext().getInitParameter("loginCount"));
-
         if (request.getServletContext().getAttribute("loginCount") == null) {
             request.getServletContext().setAttribute("loginCount", 0);
         }

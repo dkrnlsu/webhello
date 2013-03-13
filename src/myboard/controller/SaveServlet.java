@@ -22,7 +22,6 @@ public class SaveServlet extends HttpServlet{
     BoardRepository boardRepository = BoardMemoryRepository.getInstance();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setCharacterEncoding("UTF-8");
         // 로그인 체크하여 비로그인시 로그인창으로 이동
         HttpSession session = request.getSession();
         if(session.getAttribute("isLogin") == null) {

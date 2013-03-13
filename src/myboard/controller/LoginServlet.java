@@ -17,8 +17,6 @@ import java.util.List;
 public class LoginServlet extends HttpServlet{
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setCharacterEncoding("UTF-8");
-
         // 사용자 로그인 정부
         String id = request.getParameter("id");
         String password = request.getParameter("password");

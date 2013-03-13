@@ -21,8 +21,6 @@ public class DetailServlet extends HttpServlet{
     BoardRepository boardRepository = BoardMemoryRepository.getInstance();
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setCharacterEncoding("UTF-8");
-
         //1. model에서 데이터 조회
         Board board = boardRepository.getBoard(Integer.parseInt((request.getParameter("id"))));
 
