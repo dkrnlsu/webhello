@@ -1,14 +1,8 @@
 package myboard.controller;
 
-import myboard.entity.Board;
-import myboard.repository.BoardMemoryRepository;
-import myboard.repository.BoardRepository;
-
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import java.io.IOException;
-import java.util.List;
 
 /**
  * User: HolyEyE

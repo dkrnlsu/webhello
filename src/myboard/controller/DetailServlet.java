@@ -1,7 +1,7 @@
 package myboard.controller;
 
 import myboard.entity.Board;
-import myboard.repository.BoardMemoryRepository;
+import myboard.repository.BoardDbRepository;
 import myboard.repository.BoardRepository;
 
 import javax.servlet.RequestDispatcher;
@@ -10,7 +10,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.List;
 
 /**
  * User: HolyEyE
@@ -18,7 +17,7 @@ import java.util.List;
  */
 public class DetailServlet extends HttpServlet{
 
-    BoardRepository boardRepository = BoardMemoryRepository.getInstance();
+    BoardRepository boardRepository = BoardDbRepository.getInstance();
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //1. model에서 데이터 조회

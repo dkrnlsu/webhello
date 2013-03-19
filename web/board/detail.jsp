@@ -31,7 +31,7 @@
        </tr>
        <tr>
            <td width="100">content</td>
-           <td width="500">${content}</td>
+           <td width="500"><textarea name="content" cols="50" rows="5" readonly>${content}</textarea></td>
        </tr>
        <tr>
            <td width="100">writer</td>

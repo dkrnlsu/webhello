@@ -1,7 +1,7 @@
 package myboard.controller;
 
 import myboard.entity.Board;
-import myboard.repository.BoardMemoryRepository;
+import myboard.repository.BoardDbRepository;
 import myboard.repository.BoardRepository;
 
 import javax.servlet.RequestDispatcher;
@@ -18,7 +18,7 @@ import java.io.IOException;
  */
 public class UpdateFormServlet extends HttpServlet{
 
-    BoardRepository boardRepository = BoardMemoryRepository.getInstance();
+    BoardRepository boardRepository = BoardDbRepository.getInstance();
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // 로그인 체크하여 비로그인시 로그인창으로 이동
